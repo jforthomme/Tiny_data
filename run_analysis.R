@@ -24,7 +24,11 @@ run_analysis <- function(){
         
         ##Step 4 - Creating dataset with appropriate names
         completeSet <- cbind(mergedPersonID, mergedActivity, MeanStdData)
+<<<<<<< HEAD
         completeSet <- rename(completeSet, c("PersonID" = "V1"))
+=======
+        completeSet <- rename(completeSet, PersonID = V1)
+>>>>>>> 6749b90b693eb114fcc0a264c2a0298c97b1aab4
         
         ##Step 5 - Summarize dataset
         meltSet <- melt(completeSet, 1:2, 3:88)
