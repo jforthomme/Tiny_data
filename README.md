@@ -11,4 +11,4 @@ The data has to be placed in a folder named 'Data' at the same level of the scri
 
 The script to process the input data is in 'run_analysis.R'
 
-The script uses libraries 'reshape2' and 'dplyr'
+The script uses libraries 'reshape2', 'dplyr' and 'plyr'
